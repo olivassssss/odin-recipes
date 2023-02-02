@@ -1,0 +1,51 @@
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(240deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    width: 500px;
+    border-radius: 25px;
+    transition: transform .5s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.body-box{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 700px;
+    height: 860px;
+    border-radius: 25px;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+ul {
+    padding: 0px;
+    list-style-position: inside;
+}
+
+ol {
+    padding: 0;
+    list-style-position: inside;
+}
+
+a{
+    border-bottom: 2px solid black;
+    text-decoration: 0;
+    text-align: left;
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #fc466b;
+    border-bottom: 2px solid #fc466b;
+}
